@@ -23,11 +23,17 @@ The toolchain was installed with winget as needed: Android platform tools, a Mic
 
 Every sprite is grid-based pixel art drawn by a Python script with Pillow: a 22 by 14 cell canvas, one letter per color, scaled 12 pixels per cell to 264 by 168. Clawd's body is a 14 by 9 block in Claude orange with a darker crail shade, two-by-two ink eyes, and four little feet. Props and expressions are stamped on top: a coffee mug with curling steam, a laptop with scrolling green code, a pizza slice that loses bites, a barbell, a book that turns pages, a controller, a nightcap and floating Zs.
 
+![Weekday states: sleep, coffee, code, lunch, walk, gym, read, game](screenshots/sprites-weekday.png)
+
 Moods and holidays came next: sweating with flushed cheeks, confetti and happy eyes, a yawn under a low-battery icon, a Friday drink with an umbrella, a pumpkin, a Santa hat, a party hat, and a birthday cake with a flickering candle.
+
+![Moods and calendar surprises](screenshots/sprites-moods.png)
 
 Tap reactions are drawn on an opaque background so they can play over the idle loop: a wave with a heart, offering the pizza, and a ship-it fist pump with terminal sparks.
 
 Weather and weekend states followed: umbrella, scarf, sunglasses, an envelope for mail, guitar, grill, hammock and football.
+
+![Weather, mail and weekend states](screenshots/sprites-weather.png)
 
 ## Round 1: the first face, and why the GIFs never moved
 
