@@ -1,5 +1,17 @@
 # Clawd Watch Face
 
+<p align="center">
+  <img src="docs/screenshots/hero.png" alt="Clawd's World at 3:18pm: day sky, sun on its arc, skyline, Clawd shipping code, step and battery gauges" width="360">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/goal.png" alt="Step goal hit: Clawd jumps in confetti" width="200">
+  <img src="docs/screenshots/cardio.png" alt="Heart rate mood: Clawd doing cardio" width="200">
+  <img src="docs/screenshots/walking.png" alt="Walking state at 1pm" width="200">
+</p>
+
+<p align="center"><sub>Live screenshots from a Galaxy Watch7. Left to right: step goal hit, cardio mood, afternoon walk.</sub></p>
+
 A hand-built [Watch Face Format](https://developer.android.com/training/wearables/wff) face for the
 Samsung Galaxy Watch7 (Wear OS 5 / 6) starring **Clawd**, the Claude Code mascot, drawn as pixel art in
 the Claude palette with a Redline Tech Solutions mark. Clawd lives on the face: he follows a daily
@@ -8,7 +20,19 @@ schedule, reacts to your health data, notices the weather, and does something di
 Everything here was designed, drawn, generated, built, installed and debugged in a single session with
 Claude Code, over ADB wireless debugging, without opening Android Studio or Watch Face Studio.
 
-![design check](wallpaper/clawd_wallpaper.png)
+**Found a bug, tried it on another watch, or built a variant?** [Open an issue](https://github.com/JeffClouse77/clawd-watch-face/issues).
+
+### Meet the cast
+
+Every frame is drawn by Python on a pixel grid. Weekday states, then moods and calendar surprises, then weather, mail and weekend:
+
+<p align="center">
+  <img src="docs/screenshots/sprites-weekday.png" alt="Weekday states: sleep, coffee, code, lunch, walk, gym, read, game" width="32%">
+  <img src="docs/screenshots/sprites-moods.png" alt="Moods and calendar surprises" width="32%">
+  <img src="docs/screenshots/sprites-weather.png" alt="Weather, mail and weekend states" width="32%">
+</p>
+
+![Matching phone wallpaper](wallpaper/clawd_wallpaper.png)
 
 ## What the face does
 
@@ -135,3 +159,8 @@ Built on 2026-10-23 in one Claude Code session, in this order:
 
 Clawd is Anthropic's Claude Code mascot; this is a fan-made face, not an Anthropic product.
 Orbitron by Matt McInerney, SIL OFL 1.1. Everything else drawn in Python with Pillow.
+
+## License
+
+The code and build scripts are [MIT licensed](LICENSE). The Clawd character belongs to Anthropic and is
+not covered by that license. Orbitron keeps its own SIL Open Font License.
