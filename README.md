@@ -139,7 +139,7 @@ Watch, start here.
 
 ## Session log
 
-Built on 2026-10-23 in one Claude Code session, in this order:
+Built on 2026-10-23 in one Claude Code session, in this order. For the full story, round by round, see the [build log](docs/BUILD-LOG.md).
 
 1. Discovered the watch on the LAN, installed Android platform tools, paired over Wireless debugging.
 2. Drew Clawd, built the first face (time, date, steps, heart rate, battery, eight dayparts), fixed the
