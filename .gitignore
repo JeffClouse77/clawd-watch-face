@@ -1,0 +1,13 @@
+# build output and signing key never go in the repo
+build/
+*.apk
+*.keystore
+*.jks
+
+# live screenshots from the watch (contain personal health data)
+shots/
+
+# scratch
+__pycache__/
+tools/*_check.png
+tools/sprite_sheet*.png

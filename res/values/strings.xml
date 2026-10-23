@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="watch_face_name">Clawd</string>
+    <!-- theme picker (long-press the face > Customize) -->
+    <string name="theme_name">Accent</string>
+    <string name="theme_claude">Claude</string>
+    <string name="theme_redline">Redline</string>
+    <string name="theme_usaf">Air Force</string>
+    <!-- showcase: preview any Clawd state without waiting for it -->
+    <string name="show_name">Showcase</string>
+    <string name="show_live">Live (normal)</string>
+    <string name="show_rain">Rainy day</string>
+    <string name="show_snow">Snow day</string>
+    <string name="show_hot">Scorcher</string>
+    <string name="show_mail">New mail</string>
+    <string name="show_goal">Step goal</string>
+    <string name="show_cardio">Cardio</string>
+    <string name="show_lowbatt">Low battery</string>
+    <string name="show_charging">Charging</string>
+    <string name="show_bday">Birthday</string>
+    <string name="show_hallo">Halloween</string>
+    <string name="show_xmas">Christmas</string>
+    <string name="show_ny">New Year</string>
+    <string name="show_fri">Friday night</string>
+    <string name="show_grill">Weekend grill</string>
+    <string name="show_hammock">Hammock</string>
+</resources>
